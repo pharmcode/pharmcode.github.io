@@ -12,6 +12,7 @@ p {
 .well {
     border: solid;
     border-color: red;
+    white-space: nowrap;
 }
 
 #row1 {
