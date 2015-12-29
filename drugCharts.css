@@ -12,30 +12,31 @@ p {
 .well {
     border: solid;
     border-color: red;
+    white-space: nowrap;
 }
 
 #row1 {
     padding: 30px;
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 35px;
     
 }
 
 #row2 {
     padding: 30px;
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 45px;
 }
 
 #row3 {
     padding: 30px;
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 45px;
 }
 
 #row4 {
     padding: 30px;
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 45px;
 }
 
