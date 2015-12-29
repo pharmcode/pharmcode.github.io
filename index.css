@@ -1,0 +1,27 @@
+body {
+	background-color: #c4161d;
+}
+
+#selectOption {
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 50px;
+    
+}
+
+h3 {
+	font-size: 40px;
+	color: #002649;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    color: white;
+    font-family: helvetica;
+}
+
+a {
+    color: #002649;
+}
