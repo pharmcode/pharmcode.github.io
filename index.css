@@ -1,17 +1,12 @@
 body {
-	background-color: #c4161d;
+	background-color: #002649;
 }
 
 #selectOption {
     padding: 20px;
-    font-size: 20px;
-    margin-top: 50px;
+    font-size: 30px;
+    margin-top: 35px;
     
-}
-
-h3 {
-	font-size: 40px;
-	color: #002649;
 }
 
 p {
@@ -24,4 +19,12 @@ p {
 
 a {
     color: #002649;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    padding: 10px;
 }
