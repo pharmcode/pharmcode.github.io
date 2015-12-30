@@ -1,1 +1,10 @@
-/* CSS declarations go here */
+body {
+	background-color: #1B2F33;
+}
+
+p {
+	
+	color: white;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
+	font-size: 90px;
+}

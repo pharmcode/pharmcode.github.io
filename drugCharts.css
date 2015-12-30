@@ -7,12 +7,14 @@ p {
     font-size: 20px;
     text-align: center;
     padding: 10px;
+    font-family: Lato;
 }
 
 .well {
     border: solid;
     border-color: red;
     white-space: nowrap;
+    font-family: Lato;
 }
 
 #row1 {
