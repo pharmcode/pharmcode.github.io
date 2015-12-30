@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+<script src="sprintQuiz.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+
+<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="sprintQuiz.css">
+
+<div class="container-fluid">
+  <h3 class="text-primary text-center">Patient Cases</h3>
+
+  <p class="text-center">A <script>document.writeln(age);</script> year old <script>document.writeln(randEthnicity);</script> 
+  presents to clinic with a systolic BP of <script>document.writeln(systolicNumber);</script> mmHg and a 
+  diastolic BP of <script>document.writeln(diastolicNumber);</script> mmHg.</p>
+
+  <p class="text-center">Does this patient meet SPRINT criteria?</p>
+  
+  <form name="sprintYesOrNo" class="text-center" action="" method="get">
+    <label><input type="radio" name="choice" id="spYes" value="yes" required> Yes</label>
+    <label><input type="radio" name="choice" id="spNo" value="no"> No</label>
+    <button onclick="sprintDecision();">Submit</button>
+  </form>
+  <p>You are <script>document.writeln(sprintDecision());</script>
+
+    
+</div>
+</body>
+</html>

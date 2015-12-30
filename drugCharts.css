@@ -2,6 +2,18 @@ body {
 	background-color: #002649;
 }
 
+.homeReturn {
+    color: red;
+    text-decoration: underline;
+    text-align: right;
+    font-family: Lato;
+    font-size: 15px;
+}
+
+.link {
+    color: red;
+}
+
 p {
     color: white;
     font-size: 20px;
