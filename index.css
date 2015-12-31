@@ -16,6 +16,7 @@
 
 body {
 	background-color: #2C3E50;
+    font-size: 16px;
 }
 
 img {
@@ -28,7 +29,7 @@ img {
 
 #selectOption {
     padding: 20px;
-    font-size: 30px;
+    font-size: 200%;
     margin-top: 35px;  
 }
 
@@ -40,7 +41,7 @@ img {
 
 .text {
     text-align: center;
-    font-size: 18px;
+    font-size: 200%;
     margin-top: 30px;
     color: white;
     font-family: Raleway, Helvetica, Sans-Serif;
@@ -51,7 +52,7 @@ img {
 
 a {
     color: #002649;
-    font-family: Helvetica;
+    font-family: Raleway, Helvetica, Sans-Serif;
 }
 
 
