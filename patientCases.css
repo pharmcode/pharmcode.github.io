@@ -1,5 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,200,300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,300,500,800);
+
 body {
-	background-color: #002649;
+	background-color: #2C3E50;
 }
 
 .homeReturn {
@@ -8,7 +11,7 @@ body {
 }
 
 a {
-	color: red;
+	color: #F1C40F;
 }
 
 p {
@@ -17,4 +20,5 @@ p {
     text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
 	font-size: 60px;
 	text-align: center;
+	font-family: Raleway, Helvetica, Sans-Serif;
 }

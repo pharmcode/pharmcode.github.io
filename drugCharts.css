@@ -1,20 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,200,300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,300,500,800);
+
 body {
 	background-color: #002649;
 }
 
-p {
+.text {
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     padding: 10px;
-    font-family: Lato;
+    font-family: Raleway, Helvetica, Sans-Serif;
 }
 
 .well {
     border: solid;
-    border-color: red;
+    border-color: #F1C40F;
     white-space: nowrap;
-    font-family: Lato;
+    font-family: Raleway, Helvetica, Sans-Serif;
 }
 
 #row1 {
