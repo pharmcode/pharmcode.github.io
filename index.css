@@ -1,25 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,200,300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,300,500,800);
+
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-	background-color: #002649;
-}
-
-#selectOption {
-    padding: 20px;
-    font-size: 30px;
-    margin-top: 35px;
-    
-}
-
-p {
-    text-align: center;
-    font-size: 18px;
-    margin-top: 30px;
-    color: white;
-    font-family: Lato;
-}
-
-a {
-    color: #002649;
-    font-family: Lato;
+	background-color: #2C3E50;
 }
 
 img {
@@ -28,4 +24,104 @@ img {
     margin-right: auto;
     margin-top: 5px;
     padding: 10px;
+}
+
+#selectOption {
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 35px;  
+}
+
+.well {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F1C40F;
+}
+
+.text {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    color: white;
+    font-family: Raleway, Helvetica, Sans-Serif;
+    font-size: 20px;
+    font-weight: 100px;
+    padding: 10px;
+}
+
+a {
+    color: #002649;
+    font-family: Helvetica;
+}
+
+
+
+.slideRight{
+    animation-name: slideRight;
+    -webkit-animation-name: slideRight; 
+
+    animation-duration: 1.3s;   
+    -webkit-animation-duration: 1.3s;
+
+    animation-timing-function: ease;    
+    -webkit-animation-timing-function: ease;        
+
+    visibility: visible !important; 
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-110%);
+        opacity: 0.0;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }   
+}
+
+@-webkit-keyframes slideRight {
+    0% {
+        -webkit-transform: translateX(-110%);
+        opacity: 0.0;
+    }
+    100% {
+        -webkit-transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+.slideLeft {
+    animation-name: slideLeft;
+    -webkit-animation-name: slideLeft;
+    
+    animation-duration: 1.3s;
+    -webkit-animation-duration: 1.3s;
+    
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+    
+    visibility: visible !important;
+}
+
+@keyframes slideLeft {
+    0% {    
+        transform: translateX(110%);
+        opacity: 0.0;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes slideLeft {
+    0% {    
+        -webkit-transform: translateX(110%);
+        opacity: 0.0;
+    }
+    100% {
+        -webkit-transform: translateX(0%);
+        opacity: 1;
+    }
 }
