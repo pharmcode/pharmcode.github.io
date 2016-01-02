@@ -44,14 +44,15 @@ img {
     font-size: 150%;
     margin-top: 30px;
     color: white;
-    font-family: Raleway, Helvetica, Sans-Serif;
-    font-weight: 100px;
+    font-family: Helvetica, Sans-Serif;
+    font-weight: 200px;
     padding: 10px;
 }
 
 a {
     color: #002649;
-    font-family: Raleway, Helvetica, Sans-Serif;
+    font-family: Helvetica, Sans-Serif;
+    font-weight: 200px;
 }
 
 

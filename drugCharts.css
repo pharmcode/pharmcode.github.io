@@ -10,14 +10,16 @@ body {
     font-size: 30px;
     text-align: center;
     padding: 10px;
-    font-family: Raleway, Helvetica, Sans-Serif;
+    font-family: Helvetica, Sans-Serif;
+    font-weight: 200px;
 }
 
 .well {
     border: solid;
     border-color: #F1C40F;
     white-space: nowrap;
-    font-family: Raleway, Helvetica, Sans-Serif;
+    font-family: Helvetica, Sans-Serif;
+    font-weight: 200px;
 }
 
 #row1 {
