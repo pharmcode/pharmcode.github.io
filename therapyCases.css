@@ -10,9 +10,19 @@ body {
 	font-size: 20px;
 }
 
+.col-xs-4 {
+	text-align: center;
+	padding: 10px;
+}
+
+.well {
+	padding: 10px;
+}
+
 a {
 	color: #F1C40F;
 	font-size: 20px;
+	text-decoration: underline;
 }
 
 p {
