@@ -27,8 +27,10 @@ console.log(serumOsm);
 
 //Answer
 function osmFunction() {
-	document.open();
+	document.open("MIMEtype,replace");
+	document.write("<p>Did you get...?</p>");
     document.write(serumOsm);
+    document.write("<p>Click refresh (F5) for new problem</p>");
     document.close();
 }
 

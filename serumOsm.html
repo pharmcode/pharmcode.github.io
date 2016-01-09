@@ -21,17 +21,33 @@
     <p>Calculating Serum Osmolality</p>
   </div>
 
-  <p>The patient's serum sodium is <script>document.write(serumNa);</script> mEq/L. Blood glucose is <script>document.writeln(glucose)</script>mg/dL. The BUN is <script>document.writeln(bun);</script>mg/dL.</p>
-  <p>What is the patient's calculated serum osmolality?</p>
+  <div class="problem">
+    <p>The patient's serum sodium is 
+    <script>
+      document.open();
+      document.write(serumNa);
+      document.close();
+    </script> 
+    mEq/L. Blood glucose is 
+    <script>
+      document.open();
+      document.write(glucose);
+      document.close();
+    </script>
+    mg/dL. The BUN is 
+    <script>
+      document.open();
+      document.write(bun);
+      document.close();
+    </script>
+    mg/dL.</p>
+    <p>What is the patient's calculated serum osmolality?</p>
+  </div>
 
   <form name="calcOsm" class="text-center" action="" method="get">
-    <button onclick="osmFunction()";>Submit</button>
+    <button onclick="osmFunction(); return false";>Submit</button>
   </form>
 
-  
-  
-
-	
 </div>
 
 </body>
